@@ -37,57 +37,51 @@
 	}
 	"6"
 	{
-		"label" "#GameUI_GameMenu_ResumeGame"
-		"command" "ResumeGame"
-		"OnlyInGame" "1"
-	}
-	"7"
-	{
 		"label" "#GameUI_GameMenu_Disconnect"
 		"command" "Disconnect"
 		"OnlyInGame" "1"
 	}
-	"8"
+	"7"
 	{
 		"label" "#GameUI_GameMenu_PlayerList"
 		"command" "OpenPlayerListDialog"
 		"OnlyInGame" "1"
 	}
-	"9"
+	"8"
 	{
 		"label" ""
 		"command" ""
 		"OnlyInGame" "1"
 	}
-	"10"
+	"9"
 	{
 		"label" "REVIEW DEMO"
 		"command" "engine demoui2"
 		"OnlyInGame" "0"
 	}
-	"11"
+	"10"
 	{
 		"label" "START LAN"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
 	
-	"12"
+	"11"
 	{
 		"label" ""
 		"command" ""
 		"OnlyInGame" "0"
 	}
-	"13"
+	"12"
 	{
 		"label" "#GameUI_GameMenu_FindServers"
 		"command" "OpenServerBrowser"
 	}
-	"14"
+	"13"
 	{
 		"label" "#GameUI_GameMenu_Options"
 		"command" "OpenOptionsDialog"
 	}
-	"15"
+	"14"
 	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
