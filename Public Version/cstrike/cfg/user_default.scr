@@ -124,6 +124,6 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_UseSteamCloud"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}	
 }
