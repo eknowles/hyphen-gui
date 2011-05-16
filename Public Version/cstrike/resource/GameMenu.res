@@ -8,7 +8,7 @@
 	"1"
 	{
 		"label" "www.TEAMHYPHEN.org"
-		"command" "toggleconsole"
+		"command" "engine toggleconsole"
 		"OnlyInGame" "0"
 	}
 	"2"
@@ -62,7 +62,7 @@
 	"10"
 	{
 		"label" "REVIEW DEMO"
-		"command" "engine demoui"
+		"command" "engine demoui2"
 		"OnlyInGame" "0"
 	}
 	"11"
