@@ -247,16 +247,29 @@ Scheme
 	}
 	Fonts
 	{
-		"HyphenDeath"
+      "HyphenDeath" // KLUTCH Death Notices
 		{
 			"1"
 			{
 				"name"		"Verdana Bold"
-				"tall"		"20"
+				"tall"		"16" // 20 is nice and big, 16 is a nice small size
 				"outline"	"0"
 				"dropshadow"	"1"
 				"weight"	"500"
 				"antialias"	"1"
+				
+				// If you want the standard looking Death Notices
+				// just comment the lines above by add two forward
+				// before the start of each line and delete the slashed below
+				
+				//"name"		"Verdana"
+				//"tall"		"12"
+				//"weight"	"900"
+				//"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				//"antialias"	"0"
+				//"outline"	"0"
+				//"dropshadow""1"
+
 			}
 		}
 		"HyphenSpec"
