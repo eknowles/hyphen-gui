@@ -1,0 +1,19 @@
+sv_cheats 1
+
+// load the base configuration
+//exec default.cfg
+r_decal_cullsize 1
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+// run the Hyphen GUI Scripts
+exec hyphen/hyphen_gui.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
