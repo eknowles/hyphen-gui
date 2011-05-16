@@ -11,7 +11,7 @@ exec joystick.cfg
 exec autoexec.cfg
 
 // run the Hyphen GUI Scripts
-exec hyphen/hyphen_gui.cfg
+exec "hyphen/hyphen_gui.cfg"
 
 toggleconsole
 
@@ -19,3 +19,18 @@ toggleconsole
 // stuff command line statements
 //
 stuffcmds
+
+
+echo "+                                                               +"
+echo "                                                                 "
+echo "                        - Team Hyphen -                          "
+echo "                    - www.teamhyphen.org -                       "
+echo "                                                                 "
+echo "       To Show a list of commands type cmds in the console       "
+echo "                                                                 "
+echo "                                                                 "
+echo "                                                                 "
+echo "+                                                               +"
+echo ""
+echo ""
+echo ""
