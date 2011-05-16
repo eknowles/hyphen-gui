@@ -13,6 +13,8 @@ exec autoexec.cfg
 // run the Hyphen GUI Scripts
 exec hyphen/hyphen_gui.cfg
 
+toggleconsole
+
 //
 // stuff command line statements
 //
