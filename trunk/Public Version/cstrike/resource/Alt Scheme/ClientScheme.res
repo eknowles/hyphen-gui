@@ -252,7 +252,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana Bold"
-				"tall"		"20" // 20 is nice and big, 16 is a nice small size
+				"tall"		"16" // 20 is nice and big, 16 is a nice small size
 				"outline"	"0"
 				"dropshadow"	"1"
 				"weight"	"500"
