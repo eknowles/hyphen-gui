@@ -1,5 +1,5 @@
 // TEAM HYPHEN GUI
-// BY KLUTCH (This file was last updated 15/05/2011)
+// BY KLUTCH
 // www.teamhyphen.org
 
 "GameMenu"
