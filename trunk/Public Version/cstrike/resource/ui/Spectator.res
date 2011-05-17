@@ -92,7 +92,7 @@
 		"labelText"		"#Cstrike_Spec_CT_Score"
 		"textAlignment"	"east"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}
 	"CTScoreValue"
 	{
@@ -128,7 +128,7 @@
 		"labelText"		"#Cstrike_Spec_Ter_Score"
 		"textAlignment"	"east"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}
 	"TERScoreValue"
 	{
@@ -179,7 +179,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 		"labelText"		"e"
 		"font"		"Icons"
 	}
@@ -199,7 +199,7 @@
 		"labelText"		"00:00"
 		"textAlignment"	"center"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}
 	"extrainfo"
 	{
@@ -217,7 +217,7 @@
 		"labelText"		""
 		"textAlignment"	"west"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}
 	"titlelabel"
 	{
@@ -236,6 +236,6 @@
 		"labelText"		""
 		"textAlignment"	"west"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"	"1"
 	}
 }
