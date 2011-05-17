@@ -29,11 +29,31 @@
 
 "spectatormenu.res"
 {
+
+	"HyphenMenu"
+	{
+		"label" "Hyphen Menu"
+		
+		"hyph1"
+		{
+			"label" "Currently In Beta"
+				
+				"hyph1"
+				{
+				"label" "Currently In Beta"
+				}
+		}
+		"hyph2"
+		{
+			"label" "Currently In Beta"
+		}
+	}
+
 	"menuitem1"
 	{
 		"label"		"#Valve_Close"	// name shown in game
 		"command"	"spec_menu 0"	// type data
-		"font"			"HyphenSpecLabel"
+		"font"		"HyphenSpecLabel"
 	}
 	
 	"menuitem2"
@@ -115,8 +135,6 @@
 
 // Here are the rest of the buttons and submenus
 // You can change these safely if you want.
-
-
 
 
 

@@ -23,6 +23,7 @@ Scheme
 		"Orange"			"255 176 0 255"
 		"OrangeDim"			"255 176 0 120"
 		"LightOrange"		"188 112 0 128"
+		"HyphBright"		"200 255 255 255"
 		
 		"Red"				"192 28 0 140"
 		"Black"				"0 0 0 255"
@@ -98,7 +99,7 @@ Scheme
 
 		Label.TextDullColor				"Orange"
 		Label.TextColor					"Orange"
-		Label.TextBrightColor			"Orange"
+		Label.TextBrightColor			"HyphBright" // Was Orange
 		Label.SelectedTextColor			"Orange"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
@@ -117,7 +118,7 @@ Scheme
 		Menu.ArmedBgColor				"Red"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Orange"
+		Chat.TypingText					"HyphBright" // Was Orange
 
 		Panel.FgColor					"OrangeDim"
 		Panel.BgColor					"Blank"
@@ -218,8 +219,8 @@ Scheme
 		"SelectionSelectedBoxBg" "0 0 0 190"
 
 		// Hint message colors
-		"HintMessageFg"			"255 255 255 255"
-		"HintMessageBg" 		"0 0 0 60"
+		"HintMessageFg"			"255 255 255 0"
+		"HintMessageBg" 		"0 0 0 0"
 
 		"ProgressBarFg"			"255 30 13 255"
 
@@ -1584,11 +1585,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"verdana bold"
+				"name"		"verdana"
 				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
+				"dropshadow""1"
 			}
 		}
 
@@ -1596,11 +1598,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"verdana bold"
+				"name"		"verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
+				"dropshadow""1"
 			}
 		}
 
@@ -1625,6 +1628,7 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1" [!$OSX]
+				"dropshadow""1"
 			}
 		}
 		
@@ -1632,11 +1636,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"verdana bold"
+				"name"		"verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"0"
+				"antialias"	"1"
+				"dropshadow""1"
 			}
 		}
 		
@@ -1644,11 +1649,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"verdana bold"
+				"name"		"verdana"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"0"
+				"antialias"	"1"
+				"dropshadow""1"
 			}
 		}
 
@@ -1661,7 +1667,8 @@ Scheme
 				"tall"		"11" [$OSX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
+				"antialias"	"0"
+				"dropshadow""1"
 			}
 		}
 
@@ -1675,6 +1682,7 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
+				"dropshadow""0"
 			}
 		}
 
@@ -1688,6 +1696,7 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
+				"dropshadow""0"
 			}
 		}
 
@@ -1699,7 +1708,8 @@ Scheme
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
+				"antialias"	"0"
+				"dropshadow""1"
 			}
 		}
 	}
