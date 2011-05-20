@@ -1,0 +1,16 @@
+#labels Phase-Deploy
+#A quick 'How To' install the Hyphen GUI.
+
+= Introduction =
+
+The Hyphen GUI is a beautiful Graphical User Interface for use in Counter-Strike:Source. It features an enhanced experienced for the player whilst providing the tools to make server administration easier.
+
+It is an open source project run by Edward Knowles (KLUTCH). The aim is to give players a better experience so they get more out of the game as well as making it's use legal in strict online leagues.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
