@@ -2,7 +2,7 @@
 
 Go to `cstrike/resource/ClientScheme.res` and open with notepad
 
-*Find*
+*Ctrl+F Find 'KLUTCH'*
 {{{
       "HyphenDeath" // KLUTCH Death Notices
 		{
@@ -16,4 +16,4 @@ Go to `cstrike/resource/ClientScheme.res` and open with notepad
 				"antialias"	"1"
 }}}
 
-Replace `"tall"	"16"` with what ever number you like.
+*Replace* `"tall"	"16"` with what ever number you like.
