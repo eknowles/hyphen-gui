@@ -50,7 +50,7 @@ Scheme
 	{
 		// vgui_controls color specifications
 		Border.Bright					"LightOrange"		// the lit side of a control
-		Border.Dark						"LightOrange"		// the dark/unlit side of a control
+		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Blank"				// the additional border color for displaying the default/selected button
 		Border.BuyPreset				"Orange"
 
@@ -79,8 +79,8 @@ Scheme
 		Frame.FocusTransitionEffectTime	"0.0"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.0"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"Blank"
-		FrameGrip.Color2				"Blank"
+		FrameGrip.Color1				"Black"
+		FrameGrip.Color2				"Black"
 		FrameTitleButton.FgColor		"Blank"
 		FrameTitleButton.BgColor		"Blank"
 		FrameTitleButton.DisabledFgColor	"Blank"
@@ -90,9 +90,9 @@ Scheme
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
 		FrameTitleBar.TextColor			"Orange"
-		FrameTitleBar.BgColor			"Blank"
+		FrameTitleBar.BgColor			"Black"
 		FrameTitleBar.DisabledTextColor	"Orange"
-		FrameTitleBar.DisabledBgColor	"Blank"
+		FrameTitleBar.DisabledBgColor	"Black"
 
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"
@@ -134,7 +134,7 @@ Scheme
 
 		PropertySheet.TextColor			"Orange"
 		PropertySheet.SelectedTextColor	"Orange"
-		PropertySheet.TransitionEffectTime	"0.5"	// time to change from one tab to another
+		PropertySheet.TransitionEffectTime	"0.0"	// time to change from one tab to another
 
 		RadioButton.TextColor			"Orange"
 		RadioButton.SelectedTextColor	"Orange"
@@ -194,7 +194,7 @@ Scheme
 		"FgColor"		"Orange"
 		"BgColor"		"TransparentBlack"
 
-		"ViewportBG"		"Blank"
+		"ViewportBG"		"Black"
 		"team0"			"204 204 204 255" // Spectators
 		"team1"			"255 64 64 255" // CT's
 		"team2"			"153 204 255 255" // T's
