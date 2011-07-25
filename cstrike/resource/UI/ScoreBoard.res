@@ -46,7 +46,7 @@
 		"brighttext"			"1"
 		"font"					"HyphenSpec"
 		"fgcolor_override"		"255 177 0 255"
-		"bgcolor_override"		"0 0 0 64"
+		"bgcolor_override"		"0 0 0 200"
 	}
 	"MAINBG"
 	{
@@ -58,7 +58,7 @@
 		"tall"		            "228"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 100"
+		"fillcolor"				"0 0 0 200"
 	}
 	"DividerBar"
 	{
@@ -841,7 +841,7 @@
 		"tall"		            "15"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 70"
+		"fillcolor"				"0 0 0 200"
 	}
 	"Spectators"
 	{
