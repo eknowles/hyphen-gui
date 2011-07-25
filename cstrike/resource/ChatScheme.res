@@ -307,41 +307,46 @@ Scheme
 			{
 				"name"		"Microsoft Sans Serif"
 				"tall"		"12"
-				"weight"	"700"
+				"weight"	"600"
 				"yres"		"480 599"
 				"dropshadow"	"1"
+				"antialias"	"0"
 			}
 			"2"
 			{
 				"name"		"Microsoft Sans Serif"
 				"tall"		"14"
-				"weight"	"700"
+				"weight"	"600"
 				"yres"		"600 767"
 				"dropshadow"	"1"
+				"antialias"	"0"
 			}
 			"3"
 			{
 				"name"		"Microsoft Sans Serif"
 				"tall"		"15"
-				"weight"	"700"
+				"weight"	"600"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
+				"antialias"	"0"
 			}
 			"4"
 			{
 				"name"		"Microsoft Sans Serif"
 				"tall"		"20"
-				"weight"	"700"
+				"weight"	"600"
 				"yres"		"1024 1280"
 				"dropshadow"	"1"
+				"antialias"	"0"
 			}
 			"5"
 			{
 				"name"		"Microsoft Sans Serif"
 				"tall"		"22"
-				"weight"	"700"
+				"weight"	"600"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
+				"antialias"	"0"
 			}
 		}
 
