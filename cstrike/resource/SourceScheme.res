@@ -57,7 +57,7 @@ Scheme
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"White"		// color of the check itself
 
-		ComboBoxButton.ArrowColor		"DullWhite"
+		ComboBoxButton.ArrowColor		"White"
 		ComboBoxButton.ArmedArrowColor	"HyphenBlue"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
@@ -98,11 +98,11 @@ Scheme
 		Label.DisabledFgColor2			"255 255 255 32"
 
 		ListPanel.TextColor					"OffWhite"
-		ListPanel.TextBgColor				"Blank"
+		ListPanel.TextBgColor				"255 255 255 64"
 		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedTextColor			"0 0 0 255"
+		ListPanel.SelectedTextColor			"White"
 		ListPanel.SelectedBgColor			"255 255 255 255"
-		ListPanel.SelectedOutOfFocusBgColor	"0 0 0 128"
+		ListPanel.SelectedOutOfFocusBgColor	"255 255 255 64"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
@@ -234,6 +234,7 @@ Scheme
 				"weight"	"0"
 				"dropshadow""0"
 				"antialias""1"
+				//"additive"	"1"
 			}			
 			//"1"
 			//{
