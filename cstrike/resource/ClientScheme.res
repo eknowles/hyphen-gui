@@ -101,8 +101,8 @@ Scheme
 		Label.TextDullColor				"Black"
 		Label.TextColor					"Orange"
 		Label.TextBrightColor			"HyphBright" // Was Orange
-		Label.SelectedTextColor			"Orange"
-		Label.BgColor					"Blank"
+		Label.SelectedTextColor			"White"
+		Label.BgColor					"255 255 255 16"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"LightOrange"
 
@@ -1638,7 +1638,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana Bold"
-				"tall"		"14"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
@@ -1721,7 +1721,7 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
-				"dropshadow""0"
+				"dropshadow""1"
 			}
 		}
 
