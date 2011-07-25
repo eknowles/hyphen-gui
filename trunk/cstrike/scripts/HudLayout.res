@@ -26,6 +26,55 @@
 		"LowHealthColor"	"HudIcon_Red"
 	}
 	
+    "xhair1" // This is prob illegal
+	{
+		"ControlName"	        "ImagePanel" //Scalable
+		"xpos"				"c0"
+		"ypos"				"c-4"
+		"zpos"					"5"
+		"wide"		            "1"
+		"tall"		            "2"
+		"visible"				"1"
+		"enabled"				"1"	
+		"fillcolor"			"255 255 255 64"
+	}
+	"xhair2" // This is prob illegal
+	{
+		"ControlName"	        "ImagePanel" //Scalable
+		"xpos"				"c-4"
+		"ypos"				"c0"
+		"zpos"					"5"
+		"wide"		            "2"
+		"tall"		            "1"
+		"visible"				"1"
+		"enabled"				"1"	
+		"fillcolor"			"255 255 255 64"
+	}
+	    "xhair3" // This is prob illegal
+	{
+		"ControlName"	        "ImagePanel" //Scalable
+		"xpos"				"c0"
+		"ypos"				"c3"
+		"zpos"					"5"
+		"wide"		            "1"
+		"tall"		            "2"
+		"visible"				"1"
+		"enabled"				"1"	
+		"fillcolor"			"255 255 255 64"
+	}
+	"xhair4" // This is prob illegal
+	{
+		"ControlName"	        "ImagePanel" //Scalable
+		"xpos"				"c3"
+		"ypos"				"c0"
+		"zpos"					"5"
+		"wide"		            "2"
+		"tall"		            "1"
+		"visible"				"1"
+		"enabled"				"1"	
+		"fillcolor"			"255 255 255 64"
+	}
+	
 	HudArmor
 	{
 		"fieldName"		"HudArmor"

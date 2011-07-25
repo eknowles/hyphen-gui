@@ -358,19 +358,19 @@ event MapOff
 
 event MapZoomToSmall
 {
-	Animate overview Position "16 16" Spline 0.0 0.001
+	Animate overview Position "0 0" Spline 0.0 0.001
 	Animate overview Size "96 96" Spline 0.0 0.001
 	
 	StopAnimation overview zoom 0.0
 	Animate overview zoom "1.0" Spline 0.0 0.0001
-	Animate overview zoom "0.5" Spline 0.0001 0.001
+	Animate overview zoom "1" Spline 0.0001 0.001
 }
 
 event MapZoomToLarge
 {
-	Animate overview Position "16 16" Spline 0.0 0.001
+	Animate overview Position "0 0" Spline 0.0 0.001
 	Animate overview Size "600 440" Spline 0.0 0.001
 	
 	StopAnimation overview zoom 0.0
-	Animate overview zoom "2.0" Spline 0.0 0.001
+	Animate overview zoom "1.0" Spline 0.0 0.001
 }
