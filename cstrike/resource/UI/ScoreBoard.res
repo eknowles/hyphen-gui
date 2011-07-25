@@ -575,6 +575,7 @@
 		"wide"				"283"
 		"tall"				"300"
 		"visible"			"0"
+		"enabled"			"0"
 		"fillcolor"			"222 222 222 190"
 	}
 	"CTPlayerAvatar0"
@@ -598,7 +599,7 @@
 		"ypos"				"c-103"
 		"zpos"				"10"
 		"wide"				"45"
-		"tall"				"14"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
 	}
@@ -611,7 +612,7 @@
 		"ypos"				"c-103"
 		"zpos"				"10"
 		"wide"				"135"
-		"tall"				"14"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
 	}
@@ -623,8 +624,8 @@
 		"xpos"				"c-100"
 		"ypos"				"c-103"
 		"zpos"				"10"
-		"wide"				"14"
-		"tall"				"14"
+		"wide"				"20"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"222 0 0 64"
 	}
@@ -637,7 +638,7 @@
 		"ypos"				"c-103"
 		"zpos"				"10"
 		"wide"				"30"
-		"tall"				"14"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
 	}
@@ -650,7 +651,7 @@
 		"ypos"				"c-103"
 		"zpos"				"10"
 		"wide"				"37"
-		"tall"				"14"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"222 0 0 64"
 	}
@@ -663,7 +664,7 @@
 		"ypos"				"c-103"
 		"zpos"				"10"
 		"wide"				"31"
-		"tall"				"14"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
 	}
@@ -702,7 +703,7 @@
 		"ypos"				"c-103"
 		"zpos"				"10"
 		"wide"				"45"
-		"tall"				"14"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
 	}
@@ -715,7 +716,7 @@
 		"ypos"				"c-103"
 		"zpos"				"10"
 		"wide"				"135"
-		"tall"				"14"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
 	}
@@ -727,8 +728,8 @@
 		"xpos"				"c+195"
 		"ypos"				"c-103"
 		"zpos"				"10"
-		"wide"				"14"
-		"tall"				"14"
+		"wide"				"20"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"222 0 0 64"
 	}
@@ -741,7 +742,7 @@
 		"ypos"				"c-103"
 		"zpos"				"10"
 		"wide"				"30"
-		"tall"				"14"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
 	}
@@ -754,7 +755,7 @@
 		"ypos"				"c-103"
 		"zpos"				"10"
 		"wide"				"37"
-		"tall"				"14"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"222 0 0 64"
 	}
@@ -767,7 +768,7 @@
 		"ypos"				"c-103"
 		"zpos"				"10"
 		"wide"				"30"
-		"tall"				"14"
+		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
 	}
