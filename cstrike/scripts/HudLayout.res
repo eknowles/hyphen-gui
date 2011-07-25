@@ -81,8 +81,8 @@
 	HudShoppingCart
 	{
 		"fieldName" "HudShoppingCart"
-		"xpos"	"c-10"
-		"ypos"	"200"
+		"xpos"	"r160"
+		"ypos"	"445"
 		"wide"	"20"
 		"tall"  "30"
 		"visible" "1"
