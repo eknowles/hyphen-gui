@@ -15,35 +15,40 @@
 		"tall"					"350"
 		"settitlebarvisible"	"1"
 	}
-    "Tab1"
+    "Glow"
 	{
-		"ControlName"	        "ScalableImagePanel"
-		"fieldName"		        "ScoreboardBackground1"
-		"xpos"		            "c200"
-		"ypos"		            "c-186"
-		"zpos"					"1"
-		"wide"		            "100"
-		"tall"		            "20"
+		"ControlName"	        "ImagePanel"
+		"fieldName"		        "Glow"
+		"xpos"					"c-100"
+		"ypos"					"c-190"
+		"zpos"					"90"
+		"wide"		            "200"
+		"tall"		            "5"
 		"visible"				"1"
 		"enabled"				"1"
-		"image"					"../VGUI/screens/summary_screen_tab"
+		"image"					"../../../hl2/materials/Sprites/animglow02"
 		"scaleImage"			"1"		
 	}
-	"Tab2"
+	"ServerNameLabel"
 	{
-		"ControlName"	        "ScalableImagePanel"
-		"fieldName"		        "ScoreboardBackground2"
-		"xpos"		            "c100"
-		"ypos"		            "c-186"
-		"zpos"					"1"
-		"wide"		            "100"
-		"tall"		            "20"
+		"ControlName"			"Label"
+		"fieldName"				"ServerNameLabel"
+		"xpos"					"c-300"
+		"ypos"					"c-205"
+		"zpos"					"4"
+		"wide"					"600"
+		"tall"					"16"
 		"visible"				"1"
 		"enabled"				"1"
-		"image"					"../VGUI/screens/summary_screen_tab"
-		"scaleImage"			"1"		
+		"labelText"				""
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"1"
+		"font"					"HyphenSpec"
+		"fgcolor_override"		"255 177 0 255"
+		"bgcolor_override"		"0 0 0 64"
 	}
-	"ScoreboardBackgroundColor"
+	"MAINBG"
 	{
 		"ControlName"   		"ImagePanel"
 		"xpos"		            "c-300"
@@ -53,27 +58,14 @@
 		"tall"		            "228"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 200"
-	}
-	
-	"ScoreboardBackgroundColor1"
-	{
-		"ControlName"   		"ImagePanel"
-		"xpos"		            "c-300"
-		"ypos"		            "c50"
-		"zpos"					"-10"
-		"wide"		            "600"
-		"tall"		            "15"
-		"visible"				"1"
-		"enabled"				"1"
 		"fillcolor"				"0 0 0 100"
 	}
 	"DividerBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"DividerBar"
-		"xpos"		            "c-290"
-		"ypos"		            "c-75"
+		"xpos"		    "c-290"
+		"ypos"			"c-80"
 		"wide"			"580"
 		"tall"			"1"
 		"autoResize"	"0"
@@ -85,65 +77,51 @@
 		"labelText"		""
 		"textAlignment"	"center"
 	}
-	"Icon"
-	{
-		"ControlName"	        "ImagePanel"
-		"fieldName"		        "ScoreboardBackground"
-		"xpos"		            "c-295"
-		"ypos"		            "c-180"
-		"zpos"					"-2"
-		"wide"		            "15"
-		"tall"		            "15"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"achievements/win_clan_match"
-		"scaleImage"			"1"		
-	}
+	//"Icon"
+	//{
+	//	"ControlName"	        "ImagePanel"
+	//	"fieldName"		        "ScoreboardBackground"
+	//	"xpos"		            "c-295"
+	//	"ypos"		            "c-180"
+	//	"zpos"					"-2"
+	//	"wide"		            "15"
+	//	"tall"		            "15"
+	//	"visible"				"1"
+	//	"enabled"				"1"
+	//	"image"					"achievements/win_clan_match"
+	//	"scaleImage"			"1"		
+	//}
 	"MapName"
 	{
 		"ControlName"			"Label"
 		"fieldName"				"MapName"
-		"xpos"					"c+110"
-		"ypos"					"c-182"
+		"xpos"		            "c+110"
+		"ypos"		            "c28"
 		"zpos"					"4"
-		"wide"					"65"
+		"wide"					"118"
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"%mapname%"
-		"textAlignment"			"west"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"1"
-		"font"					"HyphenSpec"
-		//"fgcolor_override"	"255 177 0 255"
-		"fgcolor_override"		"255 255 255 128"
+		"font"					"ScoreboardHeader" //hyphenspec
+		"fgcolor_override"	"255 177 0 255"
+		//"fgcolor_override"		"255 255 255 128"
+		"bgcolor_override"		"0 0 0 0"
+		
 	}	
-	"ServerNameLabel"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"ServerNameLabel"
-		"xpos"					"c-275"
-		"ypos"					"c-179"
-		"zpos"					"4"
-		"wide"					"345"
-		"tall"					"15"
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"				""
-		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"1"
-		"font"					"HyphenSpec"
-		"fgcolor_override"		"255 177 0 255"
-	}
 	"StatsStatus"
 	{
 		"ControlName"			"Label"
 		"fieldName"				"StatsStatus"
-		"xpos"					"c+210"
-		"ypos"					"c-182"
+		"xpos"		            "c-290"
+		"ypos"		            "c28"
+		//"xpos"					"c+210"
+		//"ypos"					"c-182"
 		"zpos"					"4"
-		"wide"					"100"
+		"wide"					"120"
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
@@ -151,19 +129,20 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"1"
-		"font"					"HyphenSpec"
-		//"fgcolor_override"	"255 177 0 255"
-		"fgcolor_override"		"255 255 255 128"
+		"font"					"ScoreboardHeader" //hyphenspec
+		"fgcolor_override"	"255 177 0 255"
+		//"fgcolor_override"		"255 255 255 128"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"WinConditionLabel"
 	{
 		"ControlName"			"Label"
 		"fieldName"				"WinConditionLabel"
-		"xpos"					"c+250"
-		"ypos"					"c-170"
+		"xpos"		            "c+240"
+		"ypos"		            "c28"
 		"zpos"					"4"
-		"wide"					"100"
+		"wide"					"120"
 		"tall"					"15"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -171,9 +150,10 @@
 		"enabled"				"1"
 		"labelText"				""
 		"auto_wide_tocontents"	"1"
-		"textAlignment"			"west"
+		"textAlignment"			"east"
 		"font"					"ScoreboardHeader"
 		"fgcolor_override"		"255 177 0 255"
+		"bgcolor_override"		"0 0 0 0"
 		//"pin_to_sibling"		"Icon_Clock"
 		//"pin_corner_to_sibling" "5"
 		//"pin_to_sibling_corner" "7"
@@ -213,8 +193,29 @@
 		"textAlignment"		"east"
 		"font"				"ScoreboardPlayersAlive"
 		"fgcolor_override"	"153 204 255 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 	
+	"TPlayersAlive"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"TPlayersAlive"
+		"xpos"				"c60"
+		"ypos"				"c-140"
+		"zpos"				"4"
+		"wide"				"140"
+		"tall"				"12"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%t_alivecount%"
+		"textAlignment"		"west"
+		"font"				"ScoreboardPlayersAlive"
+		"fgcolor_override"	"255 64 64 255"
+		"bgcolor_override"		"0 0 0 0"
+	}
+
 	//"CTPlayersAliveSuffix"
 	//{
 	//	"ControlName"			"Label"
@@ -239,10 +240,10 @@
 		"ControlName"		"Label"
 		"fieldName"			"TTeamScore"
 		"xpos"				"c10"
-		"ypos"				"c-170"
+		"ypos"				"c-175"
 		"zpos"				"4"
-		"wide"				"100"
-		"tall"				"40"
+		"wide"				"30"
+		"tall"				"50"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -251,15 +252,16 @@
 		"textAlignment"		"west"
 		"font"				"ScoreboardScore"
 		"fgcolor_override"	"216 220 223 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 	"CTTeamScore"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"CTTeamScore"
-		"xpos"				"c-110"
+		"xpos"				"c-40"
 		"ypos"				"c-175"
 		"zpos"				"4"
-		"wide"				"100"
+		"wide"				"30"
 		"tall"				"50"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -269,6 +271,7 @@
 		"textAlignment"		"east"
 		"font"				"ScoreboardScore"
 		"fgcolor_override"	"216 220 223 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 	"TScoreIcon"
 	{
@@ -282,7 +285,8 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"image"					"../HUD/t_victories_terrorist-win"
-		"scaleImage"			"1"		
+		"scaleImage"			"1"	
+		"bgcolor_override"		"0 0 0 0"	
 	}
 	"CTScoreIcon"
 	{
@@ -296,63 +300,92 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"image"					"../HUD/ct_victories_counter-terrorists-win"
-		"scaleImage"			"1"		
+		"scaleImage"			"1"	
+		"bgcolor_override"		"0 0 0 0"	
 	}
 	
 	"CT_Label"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"CT_Label"
-		"xpos"				"c-200"
-		"ypos"				"c-158"
+		"xpos"				"c-290"
+		"ypos"				"c-170"
 		"zpos"				"4"
-		"wide"				"140"
-		"tall"				"15"
+		"wide"				"230"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"Blue Team"//"%ct_teamname%"
+		"textAlignment"		"east"
+		"font"				"ScoreboardTeamName"
+		//"fgcolor_override"	"216 220 223 255"
+		"bgcolor_override"		"0 0 0 0"
+		
+		"fgcolor_override"	"153 204 255 255"
+		
+	}
+	"CT_Label_sub"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"CT_Label"
+		"xpos"				"c-290"
+		"ypos"				"c-157"
+		"zpos"				"4"
+		"wide"				"230"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%ct_teamname%"
 		"textAlignment"		"east"
-		"font"				"ScoreboardTeamName"
+		"font"				"ScoreboardHeader"
 		"fgcolor_override"	"216 220 223 255"
+		"bgcolor_override"		"0 0 0 0"
+		//"fgcolor_override"	"153 204 255 255"
+		
 	}
 	"T_Label"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"T_Label"
-		"xpos"				"c60"
-		"ypos"				"c-158"
+		"xpos"				"c+60"
+		"ypos"				"c-170"
 		"zpos"				"4"
-		"wide"				"140"
-		"tall"				"12"	
+		"wide"				"230"
+		"tall"				"20"	
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"Red Team"//"%t_teamname%"
+		"textAlignment"		"west"
+		"font"				"ScoreboardTeamName"
+		"fgcolor_override"	"255 64 64 255"
+		//"fgcolor_override"	"216 220 223 255"
+		"bgcolor_override"		"0 0 0 0"
+	}
+	"T_Label_sub"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"T_Label"
+		"xpos"				"c+60"
+		"ypos"				"c-157"
+		"zpos"				"4"
+		"wide"				"230"
+		"tall"				"20"	
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%t_teamname%"
 		"textAlignment"		"west"
-		"font"				"ScoreboardTeamName"
+		"font"				"ScoreboardHeader"
+		//"fgcolor_override"	"255 64 64 255"
 		"fgcolor_override"	"216 220 223 255"
-	}
-
-	"TPlayersAlive"
-	{
-		"ControlName"		"Label"
-		"fieldName"			"TPlayersAlive"
-		"xpos"				"c60"
-		"ypos"				"c-140"
-		"zpos"				"4"
-		"wide"				"45"
-		"tall"				"12"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"%t_alivecount%"
-		"textAlignment"		"west"
-		"font"				"ScoreboardPlayersAlive"
-		"fgcolor_override"	"255 64 64 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	//"TPlayersAliveSuffix"
@@ -380,7 +413,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"CTClanLabel"
 		"xpos"				"c-265"
-		"ypos"				"c-90"
+		"ypos"				"c-95"
 		"zpos"				"4"
 		"wide"				"45"
 		"tall"				"15"
@@ -392,6 +425,7 @@
 		"textAlignment"		"center"
 		"font"				"ScoreboardColumns"
 		"fgcolor_override"	"150 200 255 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"CTPlayerLabel"
@@ -399,7 +433,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"CTPlayerLabel"
 		"xpos"				"c-218"
-		"ypos"				"c-90"
+		"ypos"				"c-95"
 		"zpos"				"4"
 		"wide"				"60"
 		"tall"				"15"
@@ -411,6 +445,7 @@
 		"textAlignment"		"west"
 		"font"				"ScoreboardColumns"
 		"fgcolor_override"	"150 200 255 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"CTPlayerScoreLabel"
@@ -418,7 +453,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"CTPlayerScoreLabel"
 		"xpos"				"c-92"
-		"ypos"				"c-90"
+		"ypos"				"c-95"
 		"zpos"				"4"
 		"wide"				"30"
 		"tall"				"15"
@@ -430,6 +465,7 @@
 		"textAlignment"		"center"
 		"font"				"ScoreboardColumns"
 		"fgcolor_override"	"150 200 255 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"CTPlayerDeathsLabel"
@@ -437,7 +473,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"CTPlayerDeathsLabel"
 		"xpos"				"c-67"
-		"ypos"				"c-90"
+		"ypos"				"c-95"
 		"zpos"				"4"
 		"wide"				"37"
 		"tall"				"15"
@@ -449,6 +485,7 @@
 		"textAlignment"		"center"
 		"font"				"ScoreboardColumns"
 		"fgcolor_override"	"150 200 255 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"CTPlayerLatencyLabel"
@@ -456,7 +493,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"CTPlayerLatencyLabel"
 		"xpos"				"c-38"
-		"ypos"				"c-90"
+		"ypos"				"c-95"
 		"zpos"				"4"
 		"wide"				"42"
 		"tall"				"15"
@@ -468,6 +505,7 @@
 		"textAlignment"		"center"
 		"font"				"ScoreboardColumns"
 		"fgcolor_override"	"150 200 255 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TClanLabel"
@@ -475,7 +513,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"TClanLabel"
 		"xpos"				"c+30"
-		"ypos"				"c-90"
+		"ypos"				"c-95"
 		"zpos"				"4"
 		"wide"				"45"
 		"tall"				"15"
@@ -487,6 +525,7 @@
 		"textAlignment"		"center"
 		"font"				"ScoreboardColumns"
 		"fgcolor_override"	"240 90 90 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerLabel"
@@ -494,7 +533,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"TPlayerLabel"
 		"xpos"				"c+77"
-		"ypos"				"c-90"
+		"ypos"				"c-95"
 		"zpos"				"4"
 		"wide"				"60"
 		"tall"				"15"
@@ -506,6 +545,7 @@
 		"textAlignment"		"west"
 		"font"				"ScoreboardColumns"
 		"fgcolor_override"	"240 90 90 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerScoreLabel"
@@ -513,7 +553,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"TPlayerScoreLabel"
 		"xpos"				"c+203"
-		"ypos"				"c-90"
+		"ypos"				"c-95"
 		"zpos"				"4"
 		"wide"				"30"
 		"tall"				"15"
@@ -525,6 +565,7 @@
 		"textAlignment"		"center"
 		"font"				"ScoreboardColumns"
 		"fgcolor_override"	"240 90 90 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerDeathsLabel"
@@ -532,7 +573,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"TPlayerDeathsLabel"
 		"xpos"				"c+228"
-		"ypos"				"c-90"
+		"ypos"				"c-95"
 		"zpos"				"4"
 		"wide"				"37"
 		"tall"				"15"
@@ -544,6 +585,7 @@
 		"textAlignment"		"center"
 		"font"				"ScoreboardColumns"
 		"fgcolor_override"	"240 90 90 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerLatencyLabel"
@@ -551,7 +593,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"TPlayerLatencyLabel"
 		"xpos"				"c+257"
-		"ypos"				"c-90"
+		"ypos"				"c-95"
 		"zpos"				"4"
 		"wide"				"42"
 		"tall"				"15"
@@ -563,6 +605,7 @@
 		"textAlignment"		"center"
 		"font"				"ScoreboardColumns"
 		"fgcolor_override"	"240 90 90 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"CTPlayerArea"
@@ -570,13 +613,14 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"CTPlayerArea"
 		"xpos"				"c-286"
-		"ypos"				"c-70"
+		"ypos"				"c-75"
 		"zpos"				"10"
 		"wide"				"283"
 		"tall"				"300"
 		"visible"			"0"
 		"enabled"			"0"
 		"fillcolor"			"222 222 222 190"
+		"bgcolor_override"		"0 0 0 0"
 	}
 	"CTPlayerAvatar0"
 	{
@@ -589,6 +633,7 @@
 		"tall"				"20" //14
 		"visible"			"0"
 		"fillcolor"			"222 0 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"CTPlayerClan0"
@@ -602,6 +647,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"CTPlayerName0"
@@ -615,6 +661,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"CTPlayerStatus0"
@@ -628,6 +675,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"222 0 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"CTPlayerScore0"
@@ -641,6 +689,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"CTPlayerDeaths0"
@@ -654,6 +703,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"222 0 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"CTPlayerLatency0"
@@ -667,6 +717,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerArea"
@@ -680,6 +731,7 @@
 		"tall"				"272"
 		"visible"			"0"
 		"fillcolor"			"0 222 222 190"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerAvatar0"
@@ -693,6 +745,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"222 0 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerClan0"
@@ -706,6 +759,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerName0"
@@ -719,6 +773,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerStatus0"
@@ -732,6 +787,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"222 0 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerScore0"
@@ -745,6 +801,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerDeaths0"
@@ -758,6 +815,7 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"222 0 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"TPlayerLatency0"
@@ -771,8 +829,20 @@
 		"tall"				"20"
 		"visible"			"0"
 		"fillcolor"			"0 222 0 64"
+		"bgcolor_override"		"0 0 0 0"
 	}
-
+	"BOTTOMBG"
+	{
+		"ControlName"   		"ImagePanel"
+		"xpos"		            "c-300"
+		"ypos"		            "c45"
+		"zpos"					"-10"
+		"wide"		            "600"
+		"tall"		            "15"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 70"
+	}
 	"Spectators"
 	{
 		"ControlName"		"Label"
@@ -780,7 +850,7 @@
 		"labelText"			"%spectators%"
 		"textAlignment"		"west"
 		"xpos"				"c-290"
-		"ypos"				"c50"
+		"ypos"				"c45"
 		"zpos"				"90"
 		"wide"				"480"
 		"tall"				"15"
@@ -789,7 +859,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"font"				"ScoreboardBody_1_clean"
-		"fgcolor_override"	"216 220 223 100"
+		"fgcolor_override"	"216 220 223 200"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"SourceTV"
@@ -799,7 +870,7 @@
 		"labelText"			"%sourcetv%"
 		"textAlignment"		"east"
 		"xpos"				"c+208"
-		"ypos"				"c50"
+		"ypos"				"c45"
 		"zpos"				"90"
 		"wide"				"80"
 		"tall"				"15"
@@ -808,6 +879,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"font"				"ScoreboardBody_1_clean"
-		"fgcolor_override"	"216 220 223 100"
+		"fgcolor_override"	"216 220 223 200"
+		"bgcolor_override"		"0 0 0 0"
 	}
 }
