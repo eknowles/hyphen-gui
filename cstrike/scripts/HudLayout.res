@@ -25,10 +25,9 @@
 		
 		"LowHealthColor"	"HudIcon_Red"
 	}
-	
-    "xhair1" // This is prob illegal
+    "xhair1"
 	{
-		"ControlName"	        "ImagePanel" //Scalable
+		"ControlName"	        "ImagePanel"
 		"xpos"				"c0"
 		"ypos"				"c-4"
 		"zpos"					"5"
@@ -38,9 +37,9 @@
 		"enabled"				"1"	
 		"fillcolor"			"255 255 255 64"
 	}
-	"xhair2" // This is prob illegal
+	"xhair2"
 	{
-		"ControlName"	        "ImagePanel" //Scalable
+		"ControlName"	        "ImagePanel"
 		"xpos"				"c-4"
 		"ypos"				"c0"
 		"zpos"					"5"
@@ -50,9 +49,9 @@
 		"enabled"				"1"	
 		"fillcolor"			"255 255 255 64"
 	}
-	    "xhair3" // This is prob illegal
+	"xhair3"
 	{
-		"ControlName"	        "ImagePanel" //Scalable
+		"ControlName"	        "ImagePanel"
 		"xpos"				"c0"
 		"ypos"				"c3"
 		"zpos"					"5"
@@ -62,9 +61,9 @@
 		"enabled"				"1"	
 		"fillcolor"			"255 255 255 64"
 	}
-	"xhair4" // This is prob illegal
+	"xhair4"
 	{
-		"ControlName"	        "ImagePanel" //Scalable
+		"ControlName"	        "ImagePanel"
 		"xpos"				"c3"
 		"ypos"				"c0"
 		"zpos"					"5"
