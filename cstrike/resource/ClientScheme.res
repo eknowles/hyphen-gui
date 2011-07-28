@@ -21,7 +21,7 @@ Scheme
 	{
 		// base colors
 		"Orange"			"255 255 255 255" //"255 176 0 255"
-		"OrangeDim"			"255 255 255 255" //"255 176 0 120"
+		"OrangeDim"			"255 255 255 120" //"255 176 0 120"
 		"LightOrange"		"255 255 255 128" //"188 112 0 128"
 		"HyphBright"		"200 255 255 255"
 		
@@ -98,11 +98,11 @@ Scheme
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"Black"
+		Label.TextDullColor				"DullOrange"
 		Label.TextColor					"Orange"
 		Label.TextBrightColor			"HyphBright" // Was Orange
 		Label.SelectedTextColor			"White"
-		Label.BgColor					"255 255 255 16"
+		Label.BgColor					"0 0 0 0"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"LightOrange"
 
