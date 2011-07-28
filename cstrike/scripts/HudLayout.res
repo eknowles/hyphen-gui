@@ -35,7 +35,6 @@
 		"tall"		            "2"
 		"visible"				"1"
 		"enabled"				"1"	
-		"fillcolor"			"255 255 255 64"
 	}
 	"xhair2"
 	{
@@ -176,7 +175,6 @@
 		"tall"  "30"
 		"visible" "1"
 		"enabled" "1"
-		
 		"PaintBackgroundType"	"2"	
 
 		"FlashColor"		"255 0 0 255"	
