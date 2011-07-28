@@ -7,7 +7,7 @@
 
 	"1"
 	{
-		"label" "www.TEAMHYPHEN.org"
+		"label" "Hyphen GUI"
 		"command" "engine toggleconsole"
 		"OnlyInGame" "0"
 	}
@@ -15,6 +15,12 @@
 	{
 		"label" ""
 		"command" ""
+		"OnlyInGame" "1"
+	}
+	"2"
+	{
+		"label" "Print zBlock Data"
+		"command" "engine toggleconsole;clear;zb_players;zb_netinfo"
 		"OnlyInGame" "1"
 	}
 	"3"
@@ -37,51 +43,57 @@
 	}
 	"6"
 	{
-		"label" "#GameUI_GameMenu_Disconnect"
-		"command" "Disconnect"
+		"label" "Retry"
+		"command" "engine retry"
 		"OnlyInGame" "1"
 	}
 	"7"
+	{
+		"label" "Disconnect"
+		"command" "Disconnect"
+		"OnlyInGame" "1"
+	}
+	"8"
 	{
 		"label" "#GameUI_GameMenu_PlayerList"
 		"command" "OpenPlayerListDialog"
 		"OnlyInGame" "1"
 	}
-	"8"
+	"9"
 	{
 		"label" ""
 		"command" ""
 		"OnlyInGame" "1"
 	}
-	"9"
+	"10"
 	{
 		"label" "REVIEW DEMO"
-		"command" "engine demoui2"
+		"command" "engine demoui"
 		"OnlyInGame" "0"
 	}
-	"10"
+	"11"
 	{
 		"label" "START LAN"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
 	
-	"11"
+	"12"
 	{
 		"label" ""
 		"command" ""
 		"OnlyInGame" "0"
 	}
-	"12"
+	"13"
 	{
 		"label" "#GameUI_GameMenu_FindServers"
 		"command" "OpenServerBrowser"
 	}
-	"13"
+	"14"
 	{
 		"label" "#GameUI_GameMenu_Options"
 		"command" "OpenOptionsDialog"
 	}
-	"14"
+	"15"
 	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
