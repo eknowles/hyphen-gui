@@ -101,8 +101,8 @@ Scheme
 		ListPanel.TextBgColor				"255 255 255 64"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"White"
-		ListPanel.SelectedBgColor			"255 255 255 255"
-		ListPanel.SelectedOutOfFocusBgColor	"255 255 255 64"
+		ListPanel.SelectedBgColor			"255 255 255 64"
+		ListPanel.SelectedOutOfFocusBgColor	"255 255 255 32"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
