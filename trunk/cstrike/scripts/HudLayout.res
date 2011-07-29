@@ -21,7 +21,7 @@
 		"icon_ypos"	"-2"
 		"digit_xpos" "20"
 		"digit_ypos" "0"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		
 		"LowHealthColor"	"HudIcon_Red"
 	}
@@ -46,7 +46,7 @@
 		"tall"		            "1"
 		"visible"				"1"
 		"enabled"				"1"	
-		"fillcolor"			"255 255 255 64"
+		//"fillcolor"			"255 255 255 64"
 	}
 	"xhair3"
 	{
@@ -58,7 +58,7 @@
 		"tall"		            "2"
 		"visible"				"1"
 		"enabled"				"1"	
-		"fillcolor"			"255 255 255 64"
+		//"fillcolor"			"255 255 255 64"
 	}
 	"xhair4"
 	{
@@ -70,9 +70,8 @@
 		"tall"		            "1"
 		"visible"				"1"
 		"enabled"				"1"	
-		"fillcolor"			"255 255 255 64"
+		//"fillcolor"			"255 255 255 64"
 	}
-	
 	HudArmor
 	{
 		"fieldName"		"HudArmor"
@@ -82,7 +81,7 @@
 		"tall"  "30"
 		"visible" "1"
 		"enabled" "1"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 
 		"PaintBackgroundType"	"2"	
 		
@@ -406,8 +405,8 @@
 		"fieldName" "HudZoom"
 		"visible" "1"
 		"enabled" "1"
-		"Circle1Radius" "66"
-		"Circle2Radius"	"74"
+		"Circle1Radius" "0"//"66"
+		"Circle2Radius"	"0"//"74"
 		"DashGap"	"16"
 		"DashHeight" "4"
 		"BorderThickness" "88"
@@ -523,16 +522,16 @@
 
 	HudMenu
 	{
-		"fieldName" "HudMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" "1"
+		"fieldName"	 "HudMenu"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"wide"	 	"640"
+		"tall"		"480"
+		"zpos" 		"50"
 
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
+		"TextFont"				"HyphenSpec"
+		"ItemFont"				"ScoreboardPlayersAlive"
+		"ItemFontPulsing"		"ScoreboardPlayersAlive"
 
 	}
 
@@ -859,5 +858,62 @@
 		"fieldName"		"CHudVote"
 		"visible"		"0"
 		"enabled"		"0"
+	}
+	"HLTVText"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"HLTVText"
+		"labelText"			"You are playing Counter-Strike: Source"
+		"textAlignment"		"center"
+		"xpos"		        "c-300"
+		"ypos"				"c65"
+		"zpos"				"90"
+		"wide"		        "600"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"HyphenHLTV"
+		"fgcolor_override"		"255 177 0 0" 
+		"bgcolor_override"		"0 0 0 0"
+	}
+	"HLTVText1"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"HLTVText1"
+		"labelText"			"Visit the official CS web site @"
+		"textAlignment"		"center"
+		"xpos"		        "c-300"
+		"ypos"				"c85"
+		"zpos"				"90"
+		"wide"		        "600"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"HyphenHLTV"
+		"fgcolor_override"		"255 177 0 0" 
+		"bgcolor_override"		"0 0 0 0"
+	}
+	"HLTVText2"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"HLTVText2"
+		"labelText"			"www.counter-strike.net"
+		"textAlignment"		"center"
+		"xpos"		        "c-300"
+		"ypos"				"c105"
+		"zpos"				"90"
+		"wide"		        "600"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"font"				"HyphenHLTV"
+		"fgcolor_override"		"255 177 0 0" 
+		"bgcolor_override"		"0 0 0 0"
 	}
 }

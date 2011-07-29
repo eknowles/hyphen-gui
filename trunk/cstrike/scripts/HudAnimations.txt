@@ -59,10 +59,8 @@ event LevelInit
 	//Animate TargetID			"BgColor" "TransparentBlack" Linear 0.0 0.1
 	Animate HudAccount			"BgColor" "0 0 0 32" Linear 0.0 0.1
 	//Animate HudFlashlight			"BgColor" "TransparentBlack" Linear 0.0 0.1
-
-
+	
 }
-
 event OpenWeaponSelectionMenu
 {
 	StopEvent CloseWeaponSelectionMenu	0.0
@@ -95,12 +93,12 @@ event MenuOpen
 	StopEvent	MenuClose 0.0 
 
 	// fade in
-	Animate HudMenu Alpha 		"255"		Linear 0.0 0.1
+	Animate HudMenu Alpha 			"255"		Linear 0.0 0.1
 	Animate HudMenu SelectionAlpha 	"255"		Linear 0.0 0.1
-	Animate HudMenu FgColor		"FgColor"		Linear 0.0 0.1
+	Animate HudMenu FgColor			"FgColor"	Linear 0.0 0.1
 	Animate HudMenu MenuColor		"MenuColor"	Linear  0.0 0.1
 	Animate HudMenu ItemColor		"ItemColor"	Linear 0.0 0.1
-	Animate HudMenu TextScan		"1"		Linear 0.0 0.1
+	Animate HudMenu TextScan		"1"			Linear 0.0 0.1
 
 	// Undo any blur
 	Animate HudMenu		Blur		"1"			Linear	0.0		0.01
@@ -109,9 +107,9 @@ event MenuOpen
 event MenuClose
 {	
 	// Hide it
-	Animate HudMenu Alpha 		"0" Linear 0.0 1
-	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
-	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu Alpha 			"0"		 Linear 0.0 1
+	Animate HudMenu SelectionAlpha 	"0"		 Linear 0.0 1
+	Animate HudMenu FgColor			"0 0 0 0"	 Linear 0.0 1
 	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
 }
@@ -259,6 +257,14 @@ event AccountMoneyRemoved
 	
 	Animate HudAccount		BgColor "0 0 0 255" Accel 0.0 0.0001 
 	Animate HudAccount		BgColor "0 0 0 32" Accel 0.0 4.0
+	
+	
+	Animate HLTVText  FgColor "255 177 0 128" Spline 2.0 1.0
+	Animate HLTVText1  FgColor "255 177 0 128" Spline 2.0 1.0
+	Animate HLTVText2  FgColor "255 177 0 128" Spline 2.0 1.0
+	Animate HLTVText  FgColor "255 177 0 0"   Spline 3.0 5.5
+	Animate HLTVText1  FgColor "255 177 0 0"   Spline 3.0 6.0
+	Animate HLTVText2  FgColor "255 177 0 0"   Spline 3.0 6.5
 }
 
 //activecolor - instantly turn green, fade back to yellow
@@ -364,13 +370,19 @@ event MapZoomToSmall
 	StopAnimation overview zoom 0.0
 	Animate overview zoom "1.0" Linear 0.0 0.0001
 	Animate overview zoom "1.0" Spline 0.0001 1.0
+	
+	
 }
 
 event MapZoomToLarge
 {
+
 	Animate overview Position "c-300 20" Linear 0.0 0.2
 	Animate overview Size "600 440" Linear 0.0 0.2
 	
 	StopAnimation overview zoom 0.0
 	Animate overview zoom "1.0" Spline 0.0 0.2
+	
+	
+	
 }

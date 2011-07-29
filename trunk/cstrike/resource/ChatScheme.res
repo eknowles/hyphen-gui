@@ -19,7 +19,7 @@ Scheme
 		"White"				"255 255 255 255"
 		"OffWhite"			"216 216 216 255"
 		"DullWhite"			"0 0 0 0"
-		"Orange"			"255 155 0 255"
+		"Orange"			"255 255 255 255"//"255 155 0 255"
 		"TransparentBlackChat"		"0 0 0 0"
 		"Black"				"0 0 0 255"
 
@@ -120,7 +120,7 @@ Scheme
 
 		PropertySheet.TextColor			"OffWhite"
 		PropertySheet.SelectedTextColor	"White"
-		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
+		PropertySheet.TransitionEffectTime	"0.0"	// time to change from one tab to another
 
 		RadioButton.TextColor			"DullWhite"
 		RadioButton.SelectedTextColor	"White"
@@ -130,7 +130,7 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
 
-		ScrollBar.Wide					0
+		ScrollBar.Wide					20
 
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Blank"
@@ -139,7 +139,7 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"White"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"Blank"			// nob color
+		ScrollBarSlider.FgColor				"White"			// nob color
 		ScrollBarSlider.BgColor				"0 0 0 0"	// slider background color 255 255 255 64
 
 		SectionedListPanel.HeaderTextColor	"White"
