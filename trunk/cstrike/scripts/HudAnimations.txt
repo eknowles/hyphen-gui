@@ -259,12 +259,13 @@ event AccountMoneyRemoved
 	Animate HudAccount		BgColor "0 0 0 32" Accel 0.0 4.0
 	
 	
-	Animate HLTVText  FgColor "255 177 0 128" Spline 2.0 1.0
-	Animate HLTVText1  FgColor "255 177 0 128" Spline 2.0 1.0
-	Animate HLTVText2  FgColor "255 177 0 128" Spline 2.0 1.0
-	Animate HLTVText  FgColor "255 177 0 0"   Spline 3.0 5.5
-	Animate HLTVText1  FgColor "255 177 0 0"   Spline 3.0 6.0
-	Animate HLTVText2  FgColor "255 177 0 0"   Spline 3.0 6.5
+	// HYPHEN GUI BETA v3.2
+	//Animate HLTVText  FgColor "255 177 0 128" Spline 2.0 1.0
+	//Animate HLTVText1  FgColor "255 177 0 128" Spline 2.0 1.0
+	//Animate HLTVText2  FgColor "255 177 0 128" Spline 2.0 1.0
+	//Animate HLTVText  FgColor "255 177 0 0"   Spline 3.0 5.5
+	//Animate HLTVText1  FgColor "255 177 0 0"   Spline 3.0 6.0
+	//Animate HLTVText2  FgColor "255 177 0 0"   Spline 3.0 6.5
 }
 
 //activecolor - instantly turn green, fade back to yellow
