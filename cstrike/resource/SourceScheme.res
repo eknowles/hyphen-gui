@@ -62,11 +62,11 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		Frame.TitleTextInsetX			16
+		Frame.TitleTextInsetX			10
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
 		Frame.BgColor					"5 5 5 200"
-		Frame.OutOfFocusBgColor			"10 10 10 128"
+		Frame.OutOfFocusBgColor			"0 0 0 64"
 		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.08"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"1"
@@ -74,16 +74,16 @@ Scheme
 		FrameGrip.Color2				"0 0 0 196"
 		FrameTitleButton.FgColor		"200 200 200 196"
 		FrameTitleButton.BgColor		"Blank"
-		FrameTitleButton.DisabledFgColor	"255 255 255 192"
+		FrameTitleButton.DisabledFgColor	"255 255 255 32"
 		FrameTitleButton.DisabledBgColor	"Blank"
 		FrameSystemButton.FgColor		"Blank"
 		FrameSystemButton.BgColor		"Blank"
-		FrameSystemButton.Icon			""
-		FrameSystemButton.DisabledIcon	""
+		FrameSystemButton.Icon			"../../../hl2/materials/VGUI/steam/games/icon_css"
+		FrameSystemButton.DisabledIcon	"../../../hl2/materials/VGUI/steam/games/icon_hl2"
 		FrameTitleBar.Font				"UiBold"
 		FrameTitleBar.TextColor			"White"
 		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"255 255 255 192"
+		FrameTitleBar.DisabledTextColor	"255 255 255 32"
 		FrameTitleBar.DisabledBgColor	"Blank"
 
 		GraphPanel.FgColor				"White"
@@ -107,8 +107,8 @@ Scheme
 
 		Menu.TextColor					"White"
 		Menu.BgColor					"0 0 0 255"
-		Menu.ArmedTextColor				"0 0 0 32"
-		Menu.ArmedBgColor				"Black"
+		Menu.ArmedTextColor				"White"
+		Menu.ArmedBgColor				"255 255 255 16"
 		Menu.TextInset					"6"
 
 		Panel.FgColor					"DullWhite"
@@ -570,7 +570,7 @@ Scheme
 		BrowserBorder	DepressedBorder
 		PropertySheetBorder	RaisedBorder
 
-		FrameBorder							// Die runden Ecken der Console - backgroundtype auf 0 statt 2
+		FrameBorder
 		{
 			// rounded corners for frames
 			"backgroundtype" "0"

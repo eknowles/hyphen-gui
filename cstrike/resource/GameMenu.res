@@ -17,12 +17,6 @@
 		"command" ""
 		"OnlyInGame" "1"
 	}
-	"2"
-	{
-		"label" "Print zBlock Data"
-		"command" "engine toggleconsole;clear;zb_players;zb_netinfo"
-		"OnlyInGame" "1"
-	}
 	"3"
 	{
 		"label" "WARMUP CONFIG"

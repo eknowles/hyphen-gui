@@ -98,7 +98,7 @@ Scheme
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"DullOrange"
+		Label.TextDullColor				"OrangeDim"
 		Label.TextColor					"Orange"
 		Label.TextBrightColor			"HyphBright" // Was Orange
 		Label.SelectedTextColor			"White"
@@ -126,8 +126,8 @@ Scheme
 
 		HTML.BgColor					"TransparentBlack"
 
-		"BuyPreset.BgColor"				"0 0 0 128"
-		"BuyPresetListBox.BgColor"		"0 0 0 128"
+		"BuyPreset.BgColor"				"0 0 0 255"
+		"BuyPresetListBox.BgColor"		"0 0 0 255"
 		"Popup.BgColor"					"0 0 0 230"
 
 		ProgressBar.FgColor				"Orange"
@@ -212,7 +212,7 @@ Scheme
 		// CHudMenu
 		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
 		"MenuColor"		"233 208 173 255"
-		"MenuBoxBg"		"0 0 0 100"
+		"MenuBoxBg"		"0 0 0 200"
 
 		// weapon selection colors
 		"SelectionNumberFg"		"255 220 0 200"
@@ -223,7 +223,7 @@ Scheme
 
 		// Hint message colors
 		"HintMessageFg"			"255 255 255 255"
-		"HintMessageBg" 		"0 0 0 240"
+		"HintMessageBg" 		"0 0 0 255"
 
 		"ProgressBarFg"			"255 30 13 255"
 
@@ -325,7 +325,17 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
-		
+		"HyphenHLTV"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"20"
+				"weight"	"900"
+				"antialias"	"1"
+				"additive"	"1"
+			}
+		}
 		"MenuTitle"
 		{
 			"1"
