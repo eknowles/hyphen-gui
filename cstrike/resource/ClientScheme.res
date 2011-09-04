@@ -226,21 +226,22 @@ Scheme
 		"HintMessageBg" 		"0 0 0 255"
 
 		"ProgressBarFg"			"255 30 13 255"
-
+		//"xpos"	"r126"
+		//"ypos"	"445"
 		// Top-left corner of the "Counter-Strike" on the main screen
-		"Main.Title1.X"		"32"
-		"Main.Title1.Y"		"180"
-		"Main.Title1.Color"	"0 0 0 0"
+		"Main.Title1.X"		"30"
+		"Main.Title1.Y"		"435"
+		"Main.Title1.Color"	"255 255 255 150"
 
 		// Top-left corner of the "SOURCE" on the main screen
-		"Main.Title2.X"		"380"
-		"Main.Title2.Y"		"205"
-		"Main.Title2.Color"	"0 0 0 0"
+		"Main.Title2.X"		"150"
+		"Main.Title2.Y"		"442"
+		"Main.Title2.Color"	"255 255 255 150"
 
 		// Top-left corner of the "BETA" on the main screen
 		"Main.Title3.X"		"460"
 		"Main.Title3.Y"		"-10"
-		"Main.Title3.Color"	"0 0 0 0"
+		"Main.Title3.Color"	"0 0 0 200"
 
 		// Top-left corner of the menu on the main screen
 		"Main.Menu.X"		"32"
@@ -256,12 +257,10 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"10" // 20 is nice and big, 16 is a nice small size
-				"outline"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"dropshadow"	"0"
-				"weight"	"900"
-				"antialias"	"0"
+				"weight"		"800"
+				"tall"			"9"
+				"antialias"		"0"
+				"dropshadow"	"1"
 				
 				// If you want the standard looking Death Notices
 				// just comment the lines above by add two forward
@@ -289,6 +288,18 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
+		"HyphenSpec1"
+		{
+			"1"
+			{				
+				"name"		"Bebas Neue"
+				"tall"		"22"
+				"weight"	"400"
+				"antialias" "1"
+				"dropshadow" "0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+		}
 		"HyphenSpecScore"
 		{
 			"1"
@@ -297,7 +308,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"400"
 				"antialias" "1"
-				//"outline""1"
+				"outline""1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -330,8 +341,8 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"20"
-				"weight"	"900"
+				"tall"		"16"
+				"weight"	"800"
 				"antialias"	"1"
 				"additive"	"1"
 			}
@@ -340,8 +351,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"20"
+				"name"		"Steelfish Rg"
+				"tall"		"30"
+				"weight"	"900"
+				"antialias"	"1"
+				"outline"	"0"
+				"dropshadow""1"
+			}
+		}		
+		"HyphenServerLabel"
+		{
+			"1"
+			{
+				"name"		"Steelfish Rg"
+				"tall"		"30"
 				"weight"	"900"
 				"antialias"	"1"
 				"outline"	"0"
@@ -1146,10 +1169,11 @@ Scheme
 		   "1"
 		   {
 			"name"  "csd" // csd.ttf
-			"tall"  "42"
+			"tall"  "25"
 			"weight" "0"
-			"additive" "1"
+			"additive" "0"
 			"antialias" "1"
+			"dropshadow"	"0"
 			"custom" "1" [$OSX]
 		   }
 		  }
@@ -1183,8 +1207,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Counter-Strike Logo" // CSlogo.ttf
-				"tall"  "60"
+				"name"  "Counter-Strike Logo" // CSlogo.ttf Counter-Strike Logo"
+				"tall"  "20"
 				"weight" "0"
 				"additive" "0"
 				"antialias" "1"
@@ -1691,7 +1715,7 @@ Scheme
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
-				"dropshadow""1"
+				"dropshadow""0"
 			}
 		}
 		
@@ -2556,7 +2580,7 @@ Scheme
 		"5"		"resource/facebolf.otf"
 		"6"		"resource/Hyphen-Menu.ttf"
 		"7"		"resource/Hyphen-Chat.ttf"
-		"8"		"resource/Hyphen-Helvetica.otf"
+		"8"		"resource/steelfishbd.otf"
 		"9"		"resource/DS-DIGIB.TTF"
 	}
 

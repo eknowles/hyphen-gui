@@ -35,6 +35,7 @@
 		"tall"		            "2"
 		"visible"				"1"
 		"enabled"				"1"	
+		"fillcolor"			"255 255 255 0"
 	}
 	"xhair2"
 	{
@@ -46,7 +47,7 @@
 		"tall"		            "1"
 		"visible"				"1"
 		"enabled"				"1"	
-		//"fillcolor"			"255 255 255 64"
+		"fillcolor"			"255 255 255 0"
 	}
 	"xhair3"
 	{
@@ -58,7 +59,7 @@
 		"tall"		            "2"
 		"visible"				"1"
 		"enabled"				"1"	
-		//"fillcolor"			"255 255 255 64"
+		"fillcolor"			"255 255 255 0"
 	}
 	"xhair4"
 	{
@@ -70,7 +71,7 @@
 		"tall"		            "1"
 		"visible"				"1"
 		"enabled"				"1"	
-		//"fillcolor"			"255 255 255 64"
+		"fillcolor"			"255 255 255 0"
 	}
 	HudArmor
 	{
@@ -443,20 +444,32 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-
+	"HudChat"
+	{
+	"ControlName"	 "EditablePanel"
+	"fieldName" "HudChat"
+	"visible" "1"
+	"enabled" "1"
+	"xpos"	 "10"	[$WIN32]
+	"xpos"	 "42"	[$X360]
+	"ypos"	 "275"
+	"wide"	 "320"
+	"tall"	 "120"
+	"PaintBackgroundType"	"2"
+	}
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"
-		"ypos"	 "12"
+		"xpos"	 "6"
+		"ypos"	 "300"
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
-		"LineHeight"	  "22"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"MaxDeathNotices" "5"
+		"LineHeight"	  "14"
+		"RightJustify"	  "0"	// If 1, draw notices from the right
 		
 		"TextFont"				"HyphenDeath"
 		"CTTextColor"			"CT_Blue"
@@ -747,19 +760,7 @@
 	    "text_xpos" "8"
 	    "text_ypos" "4"
 	}
-	"HudChat"
-	{
-	"ControlName"	 "EditablePanel"
-	"fieldName" "HudChat"
-	"visible" "1"
-	"enabled" "1"
-	"xpos"	 "10"	[$WIN32]
-	"xpos"	 "42"	[$X360]
-	"ypos"	 "275"
-	"wide"	 "320"
-	"tall"	 "120"
-	"PaintBackgroundType"	"2"
-	}
+
 	WinPanel_Round
 	{
 		"fieldName"				"WinPanel_Round"
