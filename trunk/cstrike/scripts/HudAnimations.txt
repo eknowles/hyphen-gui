@@ -43,22 +43,22 @@
 
 event LevelInit
 {
-	Animate HudHealth			"BgColor" "TransparentBlack" Linear 0.0 0.1
-	Animate HudAmmo				"BgColor" "TransparentBlack" Linear 0.0 0.1
+	Animate HudHealth			"BgColor" "0 0 0 32" Linear 0.0 0.1
+	Animate HudAmmo				"BgColor" "0 0 0 32" Linear 0.0 0.1
 	Animate HudAmmo				"FgColor" "White" Linear 0.0 0.1
-	Animate HudRoundTimer		"BgColor" "TransparentBlack" Linear 0.0 0.1
-	Animate HudArmor			"BgColor" "TransparentBlack" Linear 0.0 0.1
+	Animate HudRoundTimer		"BgColor" "0 0 0 32" Linear 0.0 0.1
+	Animate HudArmor			"BgColor" "0 0 0 32" Linear 0.0 0.1
 	Animate HudArmor			"FgColor" "White" Linear 0.0 0.1
 	Animate HudC4				"BgColor" "0 0 0 32" Linear 0.0 0.1
 	Animate HudDefuser			"BgColor" "0 0 0 32" Linear 0.0 0.1
-	//Animate HudScenarioIcon			"BgColor" "TransparentBlack" Linear 0.0 0.1
+	//Animate HudScenarioIcon			"BgColor" "0 0 0 32" Linear 0.0 0.1
 	//Animate HudShoppingCart			"BgColor" "0 0 0 32" Linear 0.0 0.1
-	Animate HudHostageRescueZone		"BgColor" "TransparentBlack" Linear 0.0 0.1
+	Animate HudHostageRescueZone		"BgColor" "0 0 0 32" Linear 0.0 0.1
 	Animate HudDeathNotice			"BgColor" "0 0 0 64" Linear 0.0 0.1
 	Animate HudVoiceSelfStatus		"BgColor" "0 0 0 32" Linear 0.0 0.1
-	//Animate TargetID			"BgColor" "TransparentBlack" Linear 0.0 0.1
+	//Animate TargetID			"BgColor" "0 0 0 32" Linear 0.0 0.1
 	Animate HudAccount			"BgColor" "0 0 0 32" Linear 0.0 0.1
-	//Animate HudFlashlight			"BgColor" "TransparentBlack" Linear 0.0 0.1
+	//Animate HudFlashlight			"BgColor" "0 0 0 32" Linear 0.0 0.1
 	
 }
 event OpenWeaponSelectionMenu
@@ -260,6 +260,8 @@ event AccountMoneyRemoved
 	
 	
 	// HYPHEN GUI BETA v3.2
+	
+	//Animate HLTVText		Blur		"7"			Linear	0.0		0.1
 	//Animate HLTVText  FgColor "255 177 0 128" Spline 2.0 1.0
 	//Animate HLTVText1  FgColor "255 177 0 128" Spline 2.0 1.0
 	//Animate HLTVText2  FgColor "255 177 0 128" Spline 2.0 1.0
@@ -301,7 +303,7 @@ event HealthTookDamage
 	Animate HudHealth		FgColor	"HudIcon_Red"		Linear 0.0 0.1
 	Animate HudHealth		FgColor	"White"		Pulse 	4 0.1 1.0
 
-	Animate HudHealth		BgColor	"TransparentBlack"	Pulse 	4 0.1 1.0
+	Animate HudHealth		BgColor	"0 0 0 32"	Pulse 	4 0.1 1.0
 	Animate HudHealth		BgColor	"HudIcon_Red"		Linear 0.0 0.1
 
 	Animate HudHealth		Blur	"7"			Deaccel 0.0 0.2

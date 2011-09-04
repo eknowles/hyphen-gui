@@ -336,10 +336,10 @@ Scheme
 			"1"
 			{
 				"name"		"Bebas Neue"
-				"tall"		"32"
+				"tall"		"35"
 				"weight"	"400"
 				"antialias" "1"
-				"dropshadow"	"1"
+				"dropshadow" "1"
 			}
 		}
 
@@ -569,7 +569,89 @@ Scheme
 		MenuBorder		RaisedBorder
 		BrowserBorder	DepressedBorder
 		PropertySheetBorder	RaisedBorder
+		
+		PanelBorder
+		{
+			// rounded corners for frames
+			"backgroundtype" "0"
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 1"
+				}
+			}
 
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}			
+		}
+		EditablePanelBorder
+		{
+			// rounded corners for frames
+			"backgroundtype" "0"
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}			
+		}
 		FrameBorder
 		{
 			// rounded corners for frames
@@ -1000,6 +1082,6 @@ Scheme
 		"3"		"resource/Hyphen-Chat.ttf"
 		"4"		"resource/Hyphen-Helvetica.otf"
 		"5"		"resource/ProFontWindows.ttf"
-		"6"		"resource/novamono.ttf"
+		"6"		"resource/LANENAR_.ttf"
 	}
 }

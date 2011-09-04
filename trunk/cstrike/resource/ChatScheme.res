@@ -19,8 +19,9 @@ Scheme
 		"White"				"255 255 255 255"
 		"OffWhite"			"216 216 216 255"
 		"DullWhite"			"0 0 0 0"
-		"Orange"			"255 255 255 255"//"255 155 0 255"
-		"TransparentBlackChat"		"0 0 0 0"
+		"Orange"			"255 255 255 255" //"255 155 0 255"
+		"TransparentBlackChat"		"0 0 0 255"
+		"TransparentBlack" "0 0 0 255"
 		"Black"				"0 0 0 255"
 
 		"Blank"				"0 0 0 0"
@@ -63,16 +64,16 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 255"	[$WIN32]
-		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor			"160 160 160 255"	[$WIN32]
-		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
-		Frame.FocusTransitionEffectTime	"0.8"	// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.8"	// time it takes for a window to fade in/out on open/close
+		Frame.BgColor					"160 160 160 0"	[$WIN32]
+		Frame.BgColor					"80 80 80 0"		[$X360]
+		Frame.OutOfFocusBgColor			"160 160 160 0"	[$WIN32]
+		Frame.OutOfFocusBgColor			"80 80 80 0"		[$X360]
+		Frame.FocusTransitionEffectTime	"0.0"	// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.0"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"200 200 200 196"
-		FrameGrip.Color2				"0 0 0 196"
-		FrameTitleButton.FgColor		"200 200 200 196"
+		FrameGrip.Color1				"200 200 200 0"
+		FrameGrip.Color2				"0 0 0 0"
+		FrameTitleButton.FgColor		"200 200 200 0"
 		FrameTitleButton.BgColor		"Blank"
 		FrameTitleButton.DisabledFgColor	"255 255 255 192"
 		FrameTitleButton.DisabledBgColor	"Blank"
@@ -92,8 +93,8 @@ Scheme
 
 		Label.TextDullColor				"DullWhite"
 		Label.TextColor					"OffWhite"
-		Label.TextBrightColor				"White"
-		Label.SelectedTextColor				"White"
+		Label.TextBrightColor			"White"
+		Label.SelectedTextColor			"White"
 		Label.BgColor					"TransparentBlackChat"
 		Label.DisabledFgColor1			"117 117 117 255"
 		Label.DisabledFgColor2			"30 30 30 255"
@@ -107,7 +108,7 @@ Scheme
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
-		Menu.BgColor					"160 160 160 64"
+		Menu.BgColor					"160 160 160 255"
 		Menu.ArmedTextColor				"Black"
 		Menu.ArmedBgColor				"Orange"
 		Menu.TextInset					"6"
@@ -130,17 +131,17 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
 
-		ScrollBar.Wide					20
+		ScrollBar.Wide					12
 
 		ScrollBarButton.FgColor				"White"
-		ScrollBarButton.BgColor				"Blank"
+		ScrollBarButton.BgColor				"255 255 255 32"
 		ScrollBarButton.ArmedFgColor		"White"
-		ScrollBarButton.ArmedBgColor		"Blank"
+		ScrollBarButton.ArmedBgColor		"255 255 255 64"
 		ScrollBarButton.DepressedFgColor	"White"
-		ScrollBarButton.DepressedBgColor	"Blank"
+		ScrollBarButton.DepressedBgColor	"255 255 255 128"
 
-		ScrollBarSlider.FgColor				"White"			// nob color
-		ScrollBarSlider.BgColor				"0 0 0 0"	// slider background color 255 255 255 64
+		ScrollBarSlider.FgColor				"255 255 255 32"			// nob color
+		ScrollBarSlider.BgColor				"255 255 255 16"	// slider background color
 
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -161,7 +162,7 @@ Scheme
 		TextEntry.SelectedTextColor	"Black"
 		TextEntry.SelectedBgColor	"Orange"
 		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
-		TextEntry.FocusEdgeColor	"0 0 0 196"
+		TextEntry.FocusEdgeColor	"0 0 0 255"
 
 		ToggleButton.SelectedTextColor	"White"
 
@@ -181,7 +182,7 @@ Scheme
 		MainMenu.MenuItemHeight		"16"	[$WIN32]
 		MainMenu.MenuItemHeight		"32"	[$X360]
 		MainMenu.Inset				"32"
-		MainMenu.Backdrop			"0 0 0 156"
+		MainMenu.Backdrop			"0 0 0 255"
 
 		Console.TextColor			"OffWhite"
 		Console.DevTextColor		"White"
@@ -305,45 +306,45 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Microsoft Sans Serif"
+				"name"		"Tahoma"
 				"tall"		"12"
-				"weight"	"600"
+				"weight"		"800"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 				"antialias"	"0"
 			}
 			"2"
 			{
-				"name"		"Microsoft Sans Serif"
+				"name"		"Tahoma"
 				"tall"		"14"
-				"weight"	"600"
+				"weight"		"800"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 				"antialias"	"0"
 			}
 			"3"
 			{
-				"name"		"Microsoft Sans Serif"
+				"name"		"Tahoma"
 				"tall"		"15"
-				"weight"	"600"
+				"weight"		"800"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 				"antialias"	"0"
 			}
 			"4"
 			{
-				"name"		"Microsoft Sans Serif"
+				"name"		"Tahoma"
 				"tall"		"20"
-				"weight"	"600"
+				"weight"		"800"
 				"yres"		"1024 1280"
 				"dropshadow"	"1"
 				"antialias"	"0"
 			}
 			"5"
 			{
-				"name"		"Microsoft Sans Serif"
+				"name"		"Tahoma"
 				"tall"		"22"
-				"weight"	"600"
+				"weight"		"800"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
 				"antialias"	"0"
