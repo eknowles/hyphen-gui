@@ -1,0 +1,28 @@
+sv_cheats 1
+
+// load the base configuration
+//exec default.cfg
+r_decal_cullsize 1
+
+// Setup custom controller
+exec joystick.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// run the eSports GUI Scripts
+exec "eSports/main.cfg"
+
+// run a user script file if present
+exec autoexec.cfg
+
+clear
+
+toggleconsole
+
+
+echo ""
+echo "eSports GUI"
+echo "www.myesports.co.uk"
