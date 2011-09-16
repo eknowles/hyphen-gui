@@ -1,7 +1,0 @@
-"lightmappedgeneric" {
-    "$basetexture" "decals\custom\govminecraft"
-    "$translucent" 1
-    "$decal" 1
-    "$decalscale" 0.500000
-    "$surfaceprop" "concrete"
-}
