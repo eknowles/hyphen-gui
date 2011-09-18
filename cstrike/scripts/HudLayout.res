@@ -21,7 +21,36 @@
 		"digit_ypos" "-2"
 		"LowHealthColor"	"HudIcon_Red"
 	}
-	
+
+    "TopFade"
+	{
+		"ControlName"	        "ImagePanel"
+		"fieldName"		        "TopFade"
+		"xpos"		 	 	    "0"
+		"ypos"				    "-20"
+		"zpos"					"-100"
+		"wide"				    "2000"
+		"tall"				    "200"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../../../hl2/materials/VGUI/zoom"
+		"scaleImage"			"1"		
+	}
+	"BottomFade"
+	{
+		"ControlName"	        "ImagePanel"
+		"fieldName"		        "BottomFade"
+		"xpos"					"0"
+		"ypos"					"-1000"
+		"zpos"					"-200"
+		"wide"		            "8000"
+		"tall"		            "1550"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../sprites/scope_arc"
+		"tileimage"				"0"
+		"scaleImage"			"1"
+	}
 	HudArmor
 	{
 		"fieldName"		"HudArmor"
@@ -42,11 +71,28 @@
 		"digit_ypos" "-2"
 	}
 	
+	HudShoppingCart
+	{
+		"fieldName" "HudShoppingCart"
+		//"xpos"	"64"
+		//"ypos"	"240"
+		"xpos"	"160"
+		"ypos"	"443"
+		"wide"	"40"
+		"tall"  "40"
+		"visible" "1"
+		"enabled" "1"
+
+		"PaintBackgroundType"	"2"
+		"IconColor"			"HudIcon_Green"
+
+	}
 	HudRoundTimer
 	{
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-28"
-		"ypos"	"446"
+		"ypos"	"-100"
+		//"ypos"	"446"
 		"zpos"	"1"
 		"wide"	"80"
 		"tall"  "25"
@@ -89,30 +135,36 @@
 		"bar_width"		"1"
 
 		"icon_xpos"		"110"
-		"icon_ypos"		"2"
+		"icon_ypos"		"8"
 	}
 
 	HudAccount
 	{
 		"fieldName" "HudAccount"
-		"xpos"	"r123"
-		"ypos"	"394"
-		"wide"	"108"
-		"tall"  "45"
+		"xpos"	"c-50"
+		"ypos"	"50"
+		//"xpos"	"r123"
+		//"ypos"	"394"
+		"wide"	"100"
+		"tall"  "25"
 		"visible" "1"
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
 		// "bgcolor_override"		"0 0 0 96"
 
-		"icon_xpos"	"9"
-		"icon_ypos"	"16"
-		"digit_xpos" "100"
-		"digit_ypos" "16"
+		//"icon_xpos"	"9"
+		//"icon_ypos"	"16"
+		//"digit_xpos" "100"
+		//"digit_ypos" "16"
+		"icon_xpos"	"-100"
+		"icon_ypos"	"-100"
+		"digit_xpos" "-100"
+		"digit_ypos" "-100"
 		"icon2_xpos" "9"
 		"icon2_ypos" "-2"
-		"digit2_xpos" "100"
-		"digit2_ypos" "-2"
+		"digit2_xpos" "95"
+		"digit2_ypos" "-3"
 	}
 
 	overview
@@ -222,20 +274,6 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	HudShoppingCart
-	{
-		"fieldName" "HudShoppingCart"
-		"xpos"	"64"
-		"ypos"	"240"
-		"wide"	"40"
-		"tall"  "40"
-		"visible" "1"
-		"enabled" "1"
-
-		"PaintBackgroundType"	"2"
-		"IconColor"			"HudIcon_Green"
-
-	}
 
 	HudC4
 	{
@@ -383,7 +421,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "12"
+		"ypos"	 "20"
 		"zpos"	 "100"
 		"wide"	 "628"
 		"tall"	 "468"
@@ -552,8 +590,8 @@
 		"fieldName" "HudRadar"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"16"
-		"ypos"		"16"
+		"xpos"		"6"
+		"ypos"		"18"
 		"wide"		"96"
 		"tall"		"96"
 	}
@@ -566,7 +604,7 @@
 		"xpos"		"16"
 		"ypos"		"112"
 		"wide"		"96"
-		"tall"		"16"
+		"tall"		"20"
 		"textAlignment"	"north"
 	}
 
@@ -643,6 +681,7 @@
 		"center_x"	"0"	// center text horizontally
 		"center_y"	"-1"	// align text on the bottom
 		"HintSize"	"1"
+		"PaintBackgroundType"	"0"
 	}
 
 	HudHintKeyDisplay
@@ -660,7 +699,7 @@
 		"text_ygap"	"8"
 		"TextColor"	"255 170 0 220"
 
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 
 	HudTerritory
@@ -704,12 +743,12 @@
 		"fieldName"				"WinPanel_Round"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-110"
-		"ypos"					"287"		
+		"xpos"					"c-150"
+		"ypos"					"300"		
 		"zpos"					"0"		
-		"wide"					"220"
-		"tall"					"138"		
-		"PaintBackgroundType"	"2"	
+		"wide"					"300"
+		"tall"					"120"		
+		"PaintBackgroundType"	"0"	
 	}
 	
 	WinPanel_Match
