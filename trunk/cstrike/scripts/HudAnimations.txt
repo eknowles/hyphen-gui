@@ -57,18 +57,17 @@ event LevelInit
 	//Animate HudDeathNotice			"BgColor" "0 0 0 100" Linear 0.0 0.1
 	//Animate HudVoiceSelfStatus		"BgColor" "0 0 0 100" Linear 0.0 0.1
 	//Animate TargetID			"BgColor" "0 0 0 100" Linear 0.0 0.1
-	Animate HudAccount			"BgColor" "0 0 0 64" Linear 0.0 0.1
+	//Animate HudAccount			"BgColor" "0 0 0 200" Linear 0.0 0.1
+	//Animate HudAccount			"FgColor" "0 0 0 0" Linear 0.0 0.1
 	//Animate HudFlashlight			"BgColor" "0 0 0 100" Linear 0.0 0.1
-	
-	
-	
+	Animate HudTimer FgColor			"0 0 0 0"	 Linear 0.0 0.1
+	Animate HudTimer BgColor			"0 0 0 0"	 Linear 0.0 0.1
 	StopEvent AccountMoneyAdded	0.0
 }
 event OpenWeaponSelectionMenu
 {
 	StopEvent CloseWeaponSelectionMenu	0.0
 	StopEvent WeaponPickup				0.0
-
 	// make the display visible
 	Animate HudWeaponSelection Alpha 		"128"		Linear 0.0 0.1
 	Animate HudWeaponSelection SelectionAlpha 	"255"	Linear 0.0 0.1
@@ -94,7 +93,6 @@ event CloseWeaponSelectionMenu
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0 
-
 	// fade in
 	Animate HudMenu Alpha 			"255"		Linear 0.0 0.1
 	Animate HudMenu SelectionAlpha 	"255"		Linear 0.0 0.1
@@ -102,7 +100,6 @@ event MenuOpen
 	Animate HudMenu MenuColor		"MenuColor"	Linear  0.0 0.1
 	Animate HudMenu ItemColor		"ItemColor"	Linear 0.0 0.1
 	Animate HudMenu TextScan		"1"			Linear 0.0 0.1
-
 	// Undo any blur
 	Animate HudMenu		Blur		"1"			Linear	0.0		0.01
 }
@@ -133,6 +130,8 @@ event TimerIncrement
 	Animate HudTimer		Blur		"7"			Linear	0.0	0.1
 	Animate HudTimer		Blur		"2"			Deaccel	0.1		0.8
 	Animate	HudTimer		Blur		"0"			Deaccel	1.1		1.5
+	Animate HudTimer FgColor			"0 0 0 0"	 Linear 0.0 0.1
+	
 }
 
 event TimerDecrement
@@ -140,6 +139,7 @@ event TimerDecrement
 	Animate HudTimer		Blur		"7"			Linear	0.0	0.1
 	Animate HudTimer		Blur		"2"			Deaccel	0.1		0.8
 	Animate	HudTimer		Blur		"0"			Deaccel	1.1		1.5
+	Animate HudTimer FgColor			"0 0 0 0"	 Linear 0.0 0.1
 }
 
 
@@ -256,10 +256,10 @@ event AccountMoneyRemoved
 	Animate HudAccount		FgColor	"White" Accel 0.0 3.0
 
 	Animate	HudAccount		Ammo2Color "White" Linear 0.0 0.0001
-	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
+	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 4.0
 	
-	Animate HudAccount		BgColor "0 0 0 255" Accel 0.0 0.0001 
-	Animate HudAccount		BgColor "0 0 0 100" Accel 0.0 4.0
+	Animate HudAccount		BgColor "100 0 0 200" Accel 0.0 0.0001 
+	Animate HudAccount		BgColor "0 0 0 0" Accel 0.0 2.0
 	
 	
 	// HYPHEN GUI BETA v3.2
@@ -287,7 +287,8 @@ event AccountMoneyAdded
 	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
 	
 	Animate HudAccount		BgColor "255 255 255 255" Accel 0.0 0.0001 
-	Animate HudAccount		BgColor "0 0 0 100" Accel 0.0 1.5
+	Animate HudAccount		FgColor "0 0 0 255" Accel 0.0 0.0001 
+	Animate HudAccount		BgColor "0 0 0 0" Accel 0.0 0.7
 }
 
 event AccountMoneyInvisible
@@ -298,8 +299,6 @@ event AccountMoneyInvisible
 event HealthRestored
 {
 	RunEvent LevelInit		0.0
-	
-	
 	Animate KillText  FgColor "255 255 255 0" Spline 0.0 0.1
 	Animate KillText  FgColor "255 177 0 0"   Spline 0.1 0.6
 	Animate KillTextSmall  FgColor "255 255 255 0" Spline 0.0 0.1
@@ -376,8 +375,8 @@ event MapOff
 
 event MapZoomToSmall
 {
-	Animate overview Position "16 16" Linear 0.0 0.2
-	Animate overview Size "160 120" Linear 0.0 0.2
+	Animate overview Position "0 0" Linear 0.0 0.001
+	Animate overview Size "0 0" Linear 0.0 0.001
 	
 	StopAnimation overview zoom 0.0
 	Animate overview zoom "1.0" Linear 0.0 0.0001
