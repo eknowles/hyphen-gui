@@ -200,12 +200,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"3"
-		"labelText"		""//"#Cstrike_Terrorist_Forces"
+		"labelText"		"&1"//"#Cstrike_Terrorist_Forces"
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"command"		"jointeam 2"
 		"font"		"ScoreboardMVP"
+		"fgcolor_override"	"0 0 0 0"
 	}
 	"ctbutton"
 	{
@@ -221,12 +222,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"4"
-		"labelText"		""//"#Cstrike_CT_Forces"
+		"labelText"		"&2"//"#Cstrike_CT_Forces"
 		"textAlignment"		"east"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"command"		"jointeam 3"
 		"font"		"ScoreboardMVP"
+		"fgcolor_override"	"0 0 0 0"
 		
 	}
 	

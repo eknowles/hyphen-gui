@@ -76,7 +76,7 @@ Scheme
 
 		Frame.BgColor					"Black"
 		Frame.OutOfFocusBgColor			"Black"
-		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
+		Frame.FocusTransitionEffectTime	"0.0"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.0"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"Black"
@@ -257,11 +257,23 @@ Scheme
 			"1"
 			{
 				"name"  "myesports menu logo"
-				"tall"  "16"
+				"tall"  "18"
 				"weight" "0"
-				"additive" "1"
+				"additive" "0"
 				"antialias" "1"
-				"dropshadow" "0"
+				"dropshadow" "1"
+			}
+		}
+		"HyphScoreboardLabel"
+		{
+			"1"
+			{
+				"name"  "SWF!T_v02"
+				"tall"  "10"
+				"weight" "0"
+				"additive" "0"
+				"antialias" "1"
+				"dropshadow" "1"
 			}
 		}
 		"HyphenDeath" // KLUTCH Death Notices
@@ -2711,6 +2723,7 @@ Scheme
 		"12"	"resource/PTS75F.ttf"
 		"13"	"resource/PTS57F.ttf"
 		"14"	"resource/myesportslogo.ttf"
+		"15"	"resource/netgraph.TTF"
 	}
 
 }

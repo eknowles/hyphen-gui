@@ -134,7 +134,7 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"White"
 		ScrollBarButton.DepressedBgColor	"255 255 255 128"
 
-		ScrollBarSlider.FgColor				"255 255 255 32"			// nob color
+		ScrollBarSlider.FgColor				"255 255 255 32"	// nob color
 		ScrollBarSlider.BgColor				"255 255 255 16"	// slider background color
 
 		SectionedListPanel.HeaderTextColor	"White"
@@ -200,6 +200,20 @@ Scheme
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 		// fonts are used in order that they are listed
+		
+		"esportlogo-spec"
+		{
+			"1"
+			{
+				"name"  "myesports menu logo"
+				"tall"  "18"
+				"weight" "0"
+				"additive" "0"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+		
 		"DebugFixed"
 		{
 			"1"
@@ -1086,5 +1100,6 @@ Scheme
 		//"10"	"resource/cs_regular.ttf"
 		"9"	"resource/AthensClassic.ttf"
 		"10"	"resource/netgraph.TTF"
+		"11"	"resource/myesportslogo.ttf"
 	}
 }

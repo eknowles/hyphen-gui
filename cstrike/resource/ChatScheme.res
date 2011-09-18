@@ -16,8 +16,8 @@ Scheme
 	Colors
 	{
 		"White"					"255 255 255 255"
-		"OffWhite"				"0 0 0 200"
-		"DullWhite"				"0 0 0 200"
+		"OffWhite"				"255 255 255 200"
+		"DullWhite"				"255 255 255 200"
 		"HyphenBlue"			"255 255 255 255"
 		"TransparentBlack"		"0 0 0 200"
 		"Black"					"0 0 0 255"
