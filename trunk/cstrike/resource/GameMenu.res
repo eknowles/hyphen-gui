@@ -70,6 +70,7 @@
 		"label" "Options"
 		"command" "OpenOptionsDialog"
 	}
+
 	"13"
 	{
 		"label" "Quit"
