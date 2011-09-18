@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Sep 18 20:07:41 AM
+// File generated:  Tue Jul 13 17:43:58 AM
 //
 //
 // Cvar	-	Setting
@@ -41,20 +41,17 @@ VERSION 1.0
 
 DESCRIPTION INFO_OPTIONS
 {
+
 	"cl_clanid"
 	{
 		"Clan Tag"
 		{
 			LIST
 			"#Cstrike_ClanTag_None" "0"
-			"100 (100~)" "1625467"
-			"devoted (Devoted Gaming)" "2628"
-			"Team Hyphen (Hyphen GUI)" "2755116"
-			"Hyph` (Team Hyphen)" "355548"
 		}
-		{ "355548" }
+		{ "0" }
 	}
-
+	
 	"cl_righthand"
 	{
 		"#Cstrike_Weapon_Alignment"
@@ -63,9 +60,9 @@ DESCRIPTION INFO_OPTIONS
 			"#Cstrike_Left_Handed" "0"
 			"#Cstrike_Right_Handed" "1"
 		}
-		{ "1" }
+		{ "0" }
 	}
-
+	
 	"cl_min_ct"
 	{
 		"Counter-Terrorist Class"
@@ -76,9 +73,8 @@ DESCRIPTION INFO_OPTIONS
 			"SAS" "3"
 			"GIGN" "4"
 		}
-		{ "1" }
+		{ "3" }
 	}
-
 	"cl_min_t"
 	{
 		"Terrorist Class"
@@ -91,69 +87,73 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{ "3" }
 	}
-
+	
+	
 	"rcon_address"
 	{
 		"Home Server IP"
 		{ STRING }
-		{ "255.255.255.255:12345" }
+		{ "0.0.0.0:12345" }
 	}
-
 	"rcon_password"
 	{
 		"Rcon Password"
 		{ STRING }
 		{ "password" }
 	}
-
+	
 	"rate"
 	{
 		"rate"
 		{ NUMBER 0 100000 }
 		{ "100000" }
 	}
-
+	
 	"cl_updaterate"
 	{
 		"cl_updaterate"
 		{ NUMBER 0 101 }
 		{ "66" }
 	}
-
+	
 	"cl_cmdrate"
 	{
 		"cl_cmdrate"
 		{ NUMBER 0 101 }
 		{ "66" }
 	}
-
+	
 	"cl_lagcompensation"
 	{
 		"cl_lagcompensation"
 		{ BOOL }
 		{ "1" }
 	}
-
+	
 	"cl_ragdoll_physics_enable"
 	{
 		"Ragdols"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
-
+	
 	"r_3dsky"
 	{
 		"3D Sky"
 		{ BOOL }
 		{ "0" }
 	}
-
+	
 	"fps_max"
 	{
 		"FPS Max"
 		{ NUMBER 0 1000 }
-		{ "1000" }
+		{ "999" }
 	}
+	
+	
+
+
 
 	"hud_centerid"
 	{
@@ -175,47 +175,44 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-
+	
 	"hud_takesshots"
 	{
 		"#game_takesshots"
 		{ BOOL }
-		{ "1" }
-	}
-
+		{ "0" }
+	}	
+	
 	"cl_disablefreezecam"
 	{
 		"#Cstrike_Disable_Freeze_Cam"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
-
+		
+	
 	"cl_cloud_settings"
 	{
 		"#Valve_UseSteamCloud"
 		{ BOOL }
-		{ "0" }
-	}
-
+		{ "1" }
+	}	
 	"cl_autowepswitch"
 	{
 		"#Cstrike_Automatic_Weapon_Switch"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
-
 	"cl_autohelp"
 	{
 		"#Cstrike_AutoHelp"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
-
 	"mp_decals"
 	{
 		"#Valve_Multiplayer_Decal_Limit"
 		{ NUMBER 0 4096 }
-		{ "100" }
+		{ "512" }
 	}
-
 }
